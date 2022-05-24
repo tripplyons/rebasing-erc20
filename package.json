@@ -1,0 +1,30 @@
+{
+  "name": "rebasing-erc20",
+  "version": "1.0.0",
+  "description": "An ERC20 token with an elastic supply, includes a rebase bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test; npm run postCompile",
+    "compile": "npx hardhat compile; npm run postCompile",
+    "postCompile": "cp -r artifacts/contracts/CustomUFragments.sol/CustomUFragments.json rebase-bot/contract-artifacts/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripplyons/rebasing-erc20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripplyons/rebasing-erc20/issues"
+  },
+  "homepage": "https://github.com/tripplyons/rebasing-erc20#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.6.7",
+    "hardhat": "^2.9.6"
+  }
+}

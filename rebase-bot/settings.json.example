@@ -1,0 +1,10 @@
+{
+  "privateKey": "____",
+  "rpc": "https://kovan.infura.io/v3/____",
+  "tokenAddress": "0x____",
+  "pairAddress": "0x____",
+  "startTimestamp": 1639883878,
+  "endTimestamp": 1639887478,
+  "startPrice": 1000000000000000000,
+  "endPrice": 100000000000000000000
+}

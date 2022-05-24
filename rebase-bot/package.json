@@ -1,0 +1,22 @@
+{
+  "name": "rebase-bot",
+  "version": "1.0.0",
+  "description": "A bot for rebasing-erc20",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripplyons/rebasing-erc20.git"
+  },
+  "author": "Tripp Lyons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripplyons/rebasing-erc20/issues"
+  },
+  "homepage": "https://github.com/tripplyons/rebasing-erc20#readme",
+  "dependencies": {
+    "ethers": "^5.5.2"
+  }
+}
